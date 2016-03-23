@@ -1,0 +1,29 @@
+Parameters of the input file:
+
+Number of variables = 168750
+Number of labels = 60
+M = 1 m =  1
+Total number of cliques = 337023
+---------------------------------------------------------------------------------------------------
+
+Range Expansion - Initialization
+Current energy: 6.63841e+06
+
+
+Range: 1 - 5
+# nodes: 4213980
+# arcs: 20888184
+Time for max-flow: 43.9644s
+Time for iteration: 45.1883
+Current energy: 6.43673e+06
+
+
+Range: 2 - 6
+# nodes: 4213980
+# arcs: 20888184
+Time for max-flow: 821.197s
+Time for iteration: 822.404
+Current energy: 6.40456e+06
+
+
+Range: 3 - 7

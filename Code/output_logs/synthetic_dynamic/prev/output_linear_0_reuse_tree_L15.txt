@@ -1,0 +1,142 @@
+Reusing flows and tree
+---------------------------------------------------------------------------------------------------
+
+Range Expansion - Initialization
+Current energy: 499459
+
+
+Initial Range   Range: 1 - 15
+Resetting graph, initializing node_id list and capacity and pointer maps
+# nodes: 992000
+# arcs: 4300400
+Time for max-flow: 2.02715s
+Count = 992000
+Time for iteration: 7.7188
+current_energy = 261617
+Current energy: 261617
+
+
+Range: 2 - 16
+3.30976e+06 0
+# nodes: 1031600
+# arcs: 4458800
+Time for max-flow: 2.52499s
+Fractional arc change: 0.0444963
+Time for iteration: 2.93053
+current_energy = 261617
+Current energy: 261617
+
+
+Range: 3 - 17
+4.86489e+06 0
+# nodes: 1071200
+# arcs: 4617200
+Time for max-flow: 2.39738s
+Fractional arc change: 0.0473014
+Time for iteration: 2.82307
+current_energy = 261617
+Current energy: 261617
+
+
+Range: 4 - 18
+6.42229e+06 0
+# nodes: 1110800
+# arcs: 4775600
+Time for max-flow: 1.27141s
+Fractional arc change: 0.0457325
+Time for iteration: 1.69893
+current_energy = 261227
+Current energy: 261227
+
+
+Range: 5 - 19
+7.99501e+06 0
+# nodes: 1150400
+# arcs: 4934000
+Time for max-flow: 1.77204s
+Fractional arc change: 0.0442643
+Time for iteration: 2.20726
+current_energy = 260948
+Current energy: 260948
+
+
+Range: 6 - 20
+9.57445e+06 0
+# nodes: 1190000
+# arcs: 5092400
+Time for max-flow: 1.48768s
+Fractional arc change: 0.03896
+Time for iteration: 1.90597
+current_energy = 260574
+Current energy: 260574
+
+
+
+Initial Range   Range: 1 - 15
+Resetting graph, initializing node_id list and capacity and pointer maps
+# nodes: 992000
+# arcs: 4300400
+Time for max-flow: 3.89378s
+Count = 992000
+Time for iteration: 11.2654
+current_energy = 260574
+Current energy: 260574
+
+
+Range: 2 - 16
+3.20392e+06 0
+# nodes: 1031600
+# arcs: 4458800
+Time for max-flow: 1.83662s
+Fractional arc change: 0.0444963
+Time for iteration: 2.28581
+current_energy = 260574
+Current energy: 260574
+
+
+Range: 3 - 17
+4.77009e+06 0
+# nodes: 1071200
+# arcs: 4617200
+Time for max-flow: 1.62462s
+Fractional arc change: 0.0473014
+Time for iteration: 2.09544
+current_energy = 260574
+Current energy: 260574
+
+
+Range: 4 - 18
+6.34024e+06 0
+# nodes: 1110800
+# arcs: 4775600
+Time for max-flow: 1.54279s
+Fractional arc change: 0.0457325
+Time for iteration: 2.01522
+current_energy = 260574
+Current energy: 260574
+
+
+Range: 5 - 19
+7.91282e+06 0
+# nodes: 1150400
+# arcs: 4934000
+Time for max-flow: 1.75838s
+Fractional arc change: 0.0442643
+Time for iteration: 2.23303
+current_energy = 260574
+Current energy: 260574
+
+
+Range: 6 - 20
+9.4944e+06 0
+# nodes: 1190000
+# arcs: 5092400
+Time for max-flow: 2.28242s
+Fractional arc change: 0.03896
+Time for iteration: 2.73813
+current_energy = 260574
+Current energy: 260574
+
+Range Expansion - Completion
+
+Total execution time for range expansion: 42.2513s

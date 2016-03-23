@@ -1,0 +1,187 @@
+Static case
+
+---------------------------------------------------------------------------------------------------
+
+Range Expansion - Initialization
+Current energy: 504274
+
+
+Range: 1 - 10
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 98.5799s
+Time for iteration: 100.498
+Current energy: 318055
+
+
+Range: 2 - 11
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 124.533s
+Time for iteration: 126.182
+Current energy: 318055
+
+
+Range: 3 - 12
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 108.486s
+Time for iteration: 110.246
+Current energy: 317850
+
+
+Range: 4 - 13
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 110.715s
+Time for iteration: 112.579
+Current energy: 317599
+
+
+Range: 5 - 14
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 110.987s
+Time for iteration: 112.697
+Current energy: 317539
+
+
+Range: 6 - 15
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 111.701s
+Time for iteration: 113.379
+Current energy: 317513
+
+
+Range: 7 - 16
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 109.916s
+Time for iteration: 111.797
+Current energy: 317513
+
+
+Range: 8 - 17
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 105.893s
+Time for iteration: 108.099
+Current energy: 317513
+
+
+Range: 9 - 18
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 95.4155s
+Time for iteration: 97.6348
+Current energy: 317513
+
+
+Range: 10 - 19
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 101.553s
+Time for iteration: 103.795
+Current energy: 317513
+
+
+Range: 11 - 20
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 107.522s
+Time for iteration: 109.777
+Current energy: 317513
+
+
+Range: 1 - 10
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 117.168s
+Time for iteration: 119.519
+Current energy: 317513
+
+
+Range: 2 - 11
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 122.928s
+Time for iteration: 125.054
+Current energy: 317513
+
+
+Range: 3 - 12
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 121.712s
+Time for iteration: 123.328
+Current energy: 317513
+
+
+Range: 4 - 13
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 113.083s
+Time for iteration: 114.701
+Current energy: 317513
+
+
+Range: 5 - 14
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 113.513s
+Time for iteration: 115.196
+Current energy: 317513
+
+
+Range: 6 - 15
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 112.719s
+Time for iteration: 114.301
+Current energy: 317513
+
+
+Range: 7 - 16
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 104.802s
+Time for iteration: 106.42
+Current energy: 317513
+
+
+Range: 8 - 17
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 95.0861s
+Time for iteration: 96.6633
+Current energy: 317513
+
+
+Range: 9 - 18
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 92.6764s
+Time for iteration: 94.239
+Current energy: 317513
+
+
+Range: 10 - 19
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 97.5505s
+Time for iteration: 99.1097
+Current energy: 317513
+
+
+Range: 11 - 20
+# nodes: 265620
+# arcs: 33453058
+Time for max-flow: 105.94s
+Time for iteration: 107.985
+Current energy: 317513
+Range Expansion - Completion
+
+Total execution time for range expansion: 2427.47s
+Fraction not majority: 0.7467
+Fraction not min unary: 0.7706

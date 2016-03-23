@@ -1,0 +1,383 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AExpand	expand.h	/^		AExpand(Energy<termType> *e, int maxIter)$/;"	f	class:AExpand	access:public	signature:(Energy<termType> *e, int maxIter)
+AExpand	expand.h	/^class AExpand$/;"	c
+AExpand::AExpand	expand.h	/^		AExpand(Energy<termType> *e, int maxIter)$/;"	f	class:AExpand	access:public	signature:(Energy<termType> *e, int maxIter)
+AExpand::E	expand.h	/^		termType E; \/\/ current energy of state$/;"	m	class:AExpand	access:private
+AExpand::cardinality	expand.h	/^		termType cardinality(int i, int label)$/;"	f	class:AExpand	access:private	signature:(int i, int label)
+AExpand::compute_energy	expand.h	/^		termType compute_energy(termType& ue, termType& pe, termType& he)$/;"	f	class:AExpand	access:private	signature:(termType& ue, termType& pe, termType& he)
+AExpand::energy	expand.h	/^		Energy<termType> *energy; \/\/ HO-energy formulation$/;"	m	class:AExpand	access:private
+AExpand::expand	expand.h	/^		void expand(int label)$/;"	f	class:AExpand	access:private	signature:(int label)
+AExpand::g	expand.h	/^		Graph<termType, termType, termType> *g; \/\/ min-cut\/max-flow class$/;"	m	class:AExpand	access:private
+AExpand::getMaxLabel	expand.h	/^		int getMaxLabel(int i)$/;"	f	class:AExpand	access:private	signature:(int i)
+AExpand::i	expand.h	/^		int maxiter, i, j; $/;"	m	class:AExpand	access:private
+AExpand::j	expand.h	/^		int maxiter, i, j; $/;"	m	class:AExpand	access:private
+AExpand::label_map	expand.h	/^		int *label_map; \/\/ current assignment of labels to nodes - **not allocated inside this class**$/;"	m	class:AExpand	access:private
+AExpand::lambda	expand.h	/^        termType lambda;$/;"	m	class:AExpand	access:private
+AExpand::maxiter	expand.h	/^		int maxiter, i, j; $/;"	m	class:AExpand	access:private
+AExpand::minimize	expand.h	/^		termType minimize(int *solution, termType* ee = NULL)$/;"	f	class:AExpand	access:public	signature:(int *solution, termType* ee = NULL)
+AExpand::nhigher	expand.h	/^        int nhigher; \/\/ number of HOpotentials$/;"	m	class:AExpand	access:private
+AExpand::nlabel	expand.h	/^        int nlabel; \/\/ number of possible lables$/;"	m	class:AExpand	access:private
+AExpand::node_id_t	expand.h	/^        typedef typename Graph<termType, termType, termType>::node_id node_id_t;$/;"	t	class:AExpand	access:private
+AExpand::nodes	expand.h	/^		node_id_t *nodes; \/\/ nodes in graph$/;"	m	class:AExpand	access:private
+AExpand::npair	expand.h	/^        int npair;  \/\/ number of pair-wise potentials$/;"	m	class:AExpand	access:private
+AExpand::nvar	expand.h	/^		int nvar;   \/\/ number of nodes (pixels)$/;"	m	class:AExpand	access:private
+Block	block.h	/^	Block(int size, void (*err_function)(char *) = NULL) { first = last = NULL; block_size = size; error_function = err_function; }$/;"	f	class:Block	access:public	signature:(int size, void (*err_function)(char *) = NULL)
+Block	block.h	/^template <class Type> class Block$/;"	c
+Block::Block	block.h	/^	Block(int size, void (*err_function)(char *) = NULL) { first = last = NULL; block_size = size; error_function = err_function; }$/;"	f	class:Block	access:public	signature:(int size, void (*err_function)(char *) = NULL)
+Block::New	block.h	/^	Type *New(int num = 1)$/;"	f	class:Block	access:public	signature:(int num = 1)
+Block::Reset	block.h	/^	void Reset()$/;"	f	class:Block	access:public	signature:()
+Block::ScanFirst	block.h	/^	Type *ScanFirst()$/;"	f	class:Block	access:public	signature:()
+Block::ScanNext	block.h	/^	Type *ScanNext()$/;"	f	class:Block	access:public	signature:()
+Block::block	block.h	/^	} block;$/;"	t	class:Block	typeref:struct:Block::block_st	access:private
+Block::block_size	block.h	/^	int		block_size;$/;"	m	class:Block	access:private
+Block::block_st	block.h	/^	typedef struct block_st$/;"	s	class:Block	access:private
+Block::block_st::current	block.h	/^		Type					*current, *last;$/;"	m	struct:Block::block_st	access:public
+Block::block_st::data	block.h	/^		Type					data[1];$/;"	m	struct:Block::block_st	access:public
+Block::block_st::last	block.h	/^		Type					*current, *last;$/;"	m	struct:Block::block_st	access:public
+Block::block_st::next	block.h	/^		struct block_st			*next;$/;"	m	struct:Block::block_st	typeref:struct:Block::block_st::block_st	access:public
+Block::error_function	block.h	/^	void	(*error_function)(char *);$/;"	m	class:Block	access:private
+Block::first	block.h	/^	block	*first;$/;"	m	class:Block	access:private
+Block::last	block.h	/^	block	*last;$/;"	m	class:Block	access:private
+Block::scan_current_block	block.h	/^	block	*scan_current_block;$/;"	m	class:Block	access:private
+Block::scan_current_data	block.h	/^	Type	*scan_current_data;$/;"	m	class:Block	access:private
+Block::~Block	block.h	/^	~Block() { while (first) { block *next = first -> next; delete first; first = next; } }$/;"	f	class:Block	access:public	signature:()
+DBlock	block.h	/^	DBlock(int size, void (*err_function)(char *) = NULL) { first = NULL; first_free = NULL; block_size = size; error_function = err_function; }$/;"	f	class:DBlock	access:public	signature:(int size, void (*err_function)(char *) = NULL)
+DBlock	block.h	/^template <class Type> class DBlock$/;"	c
+DBlock::DBlock	block.h	/^	DBlock(int size, void (*err_function)(char *) = NULL) { first = NULL; first_free = NULL; block_size = size; error_function = err_function; }$/;"	f	class:DBlock	access:public	signature:(int size, void (*err_function)(char *) = NULL)
+DBlock::Delete	block.h	/^	void Delete(Type *t)$/;"	f	class:DBlock	access:public	signature:(Type *t)
+DBlock::New	block.h	/^	Type *New()$/;"	f	class:DBlock	access:public	signature:()
+DBlock::block	block.h	/^	} block;$/;"	t	class:DBlock	typeref:struct:DBlock::block_st	access:private
+DBlock::block_item	block.h	/^	} block_item;$/;"	t	class:DBlock	typeref:union:DBlock::block_item_st	access:private
+DBlock::block_item_st	block.h	/^	typedef union block_item_st$/;"	u	class:DBlock	access:private
+DBlock::block_item_st::next_free	block.h	/^		block_item_st	*next_free;$/;"	m	union:DBlock::block_item_st	access:public
+DBlock::block_item_st::t	block.h	/^		Type			t;$/;"	m	union:DBlock::block_item_st	access:public
+DBlock::block_size	block.h	/^	int			block_size;$/;"	m	class:DBlock	access:private
+DBlock::block_st	block.h	/^	typedef struct block_st$/;"	s	class:DBlock	access:private
+DBlock::block_st::data	block.h	/^		block_item				data[1];$/;"	m	struct:DBlock::block_st	access:public
+DBlock::block_st::next	block.h	/^		struct block_st			*next;$/;"	m	struct:DBlock::block_st	typeref:struct:DBlock::block_st::block_st	access:public
+DBlock::error_function	block.h	/^	void	(*error_function)(char *);$/;"	m	class:DBlock	access:private
+DBlock::first	block.h	/^	block		*first;$/;"	m	class:DBlock	access:private
+DBlock::first_free	block.h	/^	block_item	*first_free;$/;"	m	class:DBlock	access:private
+DBlock::~DBlock	block.h	/^	~DBlock() { while (first) { block *next = first -> next; delete first; first = next; } }$/;"	f	class:DBlock	access:public	signature:()
+DIST	graph.h	/^		int			DIST;		\/\/ distance to the terminal$/;"	m	struct:Graph::node	access:public
+Delete	block.h	/^	void Delete(Type *t)$/;"	f	class:DBlock	access:public	signature:(Type *t)
+E	expand.h	/^		termType E; \/\/ current energy of state$/;"	m	class:AExpand	access:private
+Energy	energy.h	/^		Energy(int nLabel, int nVar, int nPair, int nHigher, termType Lambda):$/;"	f	class:Energy	access:public	signature:(int nLabel, int nVar, int nPair, int nHigher, termType Lambda)
+Energy	energy.h	/^class Energy$/;"	c
+Energy::Energy	energy.h	/^		Energy(int nLabel, int nVar, int nPair, int nHigher, termType Lambda):$/;"	f	class:Energy	access:public	signature:(int nLabel, int nVar, int nPair, int nHigher, termType Lambda)
+Energy::SetOneHOP	energy.h	/^        int SetOneHOP(int n, \/\/ number of nodes participating in this potential$/;"	f	class:Energy	access:public	signature:(int n, int* ind, termType* weights, termType* gammas, termType Q)
+Energy::SetPairCost	energy.h	/^        void SetPairCost(const int * pairs, const termType* sc)$/;"	f	class:Energy	access:public	signature:(const int * pairs, const termType* sc)
+Energy::SetUnaryCost	energy.h	/^        void SetUnaryCost(const termType* dc)$/;"	f	class:Energy	access:public	signature:(const termType* dc)
+Energy::higherCost	energy.h	/^        termType *higherCost;  \/\/ gamma_k values for the HOpotentials (#labels+1)x(#higher), last entry at each column is gamma_max$/;"	m	class:Energy	access:private
+Energy::higherElements	energy.h	/^        int *higherElements; \/\/ for each HOpotential - the number of nodes participating in it, i.e., there are higherElements[j-1] nodes in HOpotential j.$/;"	m	class:Energy	access:private
+Energy::higherIndex	energy.h	/^        int **higherIndex; \/\/ an array per HOpotential with indices of participating nodes$/;"	m	class:Energy	access:private
+Energy::higherP	energy.h	/^        termType *higherP; \/\/ BAGON: sum w_i of each HOpotential (P value)$/;"	m	class:Energy	access:private
+Energy::higherTruncation	energy.h	/^        termType *higherTruncation; \/\/ Q_k values - one per HOpotential$/;"	m	class:Energy	access:private
+Energy::higherWeights	energy.h	/^        termType **higherWeights; \/\/ BAGON: w_i weights for each node at a HOpotential$/;"	m	class:Energy	access:private
+Energy::lambda	energy.h	/^        termType lambda; \/\/ to be multiplied with the HOPs$/;"	m	class:Energy	access:private
+Energy::nhigher	energy.h	/^        int nhigher; \/\/ number of higher order potentials$/;"	m	class:Energy	access:private
+Energy::nlabel	energy.h	/^		int nlabel; \/\/ number of labels$/;"	m	class:Energy	access:private
+Energy::npair	energy.h	/^        int npair;  \/\/ pair-wise potentials, assuming Sc=[0 1;1 0];$/;"	m	class:Energy	access:private
+Energy::nvar	energy.h	/^        int nvar;    \/\/ number of nodes in the graph (i.e., pixels)$/;"	m	class:Energy	access:private
+Energy::pairCost	energy.h	/^        termType *pairCost;       \/\/ if nodes in pair (i,j) are labeled differently, assumes Sc = [0 1;1 0]  $/;"	m	class:Energy	access:private
+Energy::pairIndex	energy.h	/^		int *pairIndex; \/\/ (2x#pairs)  indices of participating nodes for each pair-wise potential$/;"	m	class:Energy	access:private
+Energy::unaryCost	energy.h	/^		termType *unaryCost;    \/\/ (#labels)x(#nodes) DataCost unaryCost(L,i) -> assign node i label L$/;"	m	class:Energy	access:private
+Energy::~Energy	energy.h	/^		~Energy()$/;"	f	class:Energy	access:public	signature:()
+GetArr	hierPn_mex.cpp	/^void GetArr(const mxArray* x, T* arr, T bias = 0);$/;"	p	file:	signature:(const mxArray* x, T* arr, T bias = 0)
+GetArr	hierPn_mex.cpp	/^void GetArr(const mxArray* x, T* arr, T bias)$/;"	f	signature:(const mxArray* x, T* arr, T bias)
+Graph	graph.h	/^	Graph(int node_num_max, int edge_num_max, void (*err_function)(char *) = NULL);$/;"	p	class:Graph	access:public	signature:(int node_num_max, int edge_num_max, void (*err_function)(char *) = NULL)
+Graph	graph.h	/^	Graph<captype, tcaptype, flowtype>::Graph(int node_num_max, int edge_num_max, void (*err_function)(char *))$/;"	f	class:Graph	signature:(int node_num_max, int edge_num_max, void (*err_function)(char *))
+Graph	graph.h	/^template <typename captype, typename tcaptype, typename flowtype> class Graph$/;"	c
+Graph::Graph	graph.h	/^	Graph(int node_num_max, int edge_num_max, void (*err_function)(char *) = NULL);$/;"	p	class:Graph	access:public	signature:(int node_num_max, int edge_num_max, void (*err_function)(char *) = NULL)
+Graph::Graph	graph.h	/^	Graph<captype, tcaptype, flowtype>::Graph(int node_num_max, int edge_num_max, void (*err_function)(char *))$/;"	f	class:Graph	signature:(int node_num_max, int edge_num_max, void (*err_function)(char *))
+Graph::NODEPTR_BLOCK_SIZE	graph.h	/^	static const int NODEPTR_BLOCK_SIZE = 128;$/;"	m	class:Graph	access:private
+Graph::SINK	graph.h	/^		SINK	= 1$/;"	e	enum:Graph::__anon1
+Graph::SOURCE	graph.h	/^		SOURCE	= 0,$/;"	e	enum:Graph::__anon1
+Graph::TIME	graph.h	/^	int					TIME;								\/\/ monotonically increasing global counter$/;"	m	class:Graph	access:private
+Graph::add_edge	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::add_edge(node_id _i, node_id _j, captype cap, captype rev_cap)$/;"	f	class:Graph	signature:(node_id _i, node_id _j, captype cap, captype rev_cap)
+Graph::add_edge	graph.h	/^	void add_edge(node_id i, node_id j, captype cap, captype rev_cap);$/;"	p	class:Graph	access:public	signature:(node_id i, node_id j, captype cap, captype rev_cap)
+Graph::add_node	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::node_id Graph<captype,tcaptype,flowtype>::add_node(int num)$/;"	f	class:Graph	signature:(int num)
+Graph::add_node	graph.h	/^	node_id add_node(int num = 1);$/;"	p	class:Graph	access:public	signature:(int num = 1)
+Graph::add_to_changed_list	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::add_to_changed_list(node *i)$/;"	f	class:Graph	signature:(node *i)
+Graph::add_to_changed_list	graph.h	/^	void add_to_changed_list(node* i);$/;"	p	class:Graph	access:private	signature:(node* i)
+Graph::add_tweights	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::add_tweights(node_id i, tcaptype cap_source, tcaptype cap_sink)$/;"	f	class:Graph	signature:(node_id i, tcaptype cap_source, tcaptype cap_sink)
+Graph::add_tweights	graph.h	/^	void add_tweights(node_id i, tcaptype cap_source, tcaptype cap_sink);$/;"	p	class:Graph	access:public	signature:(node_id i, tcaptype cap_source, tcaptype cap_sink)
+Graph::arc	graph.h	/^	struct arc$/;"	s	class:Graph	access:private
+Graph::arc::head	graph.h	/^		node		*head;		\/\/ node the arc points to$/;"	m	struct:Graph::arc	access:public
+Graph::arc::next	graph.h	/^		arc			*next;		\/\/ next arc with the same originating node$/;"	m	struct:Graph::arc	access:public
+Graph::arc::r_cap	graph.h	/^		captype		r_cap;		\/\/ residual capacity$/;"	m	struct:Graph::arc	access:public
+Graph::arc::sister	graph.h	/^		arc			*sister;	\/\/ reverse arc$/;"	m	struct:Graph::arc	access:public
+Graph::arc_id	graph.h	/^	typedef arc* arc_id;$/;"	t	class:Graph	access:public
+Graph::arc_last	graph.h	/^	arc					*arcs, *arc_last, *arc_max; \/\/ arc_last = arcs+2*edge_num, arc_max = arcs+2*edge_num_max;$/;"	m	class:Graph	access:private
+Graph::arc_max	graph.h	/^	arc					*arcs, *arc_last, *arc_max; \/\/ arc_last = arcs+2*edge_num, arc_max = arcs+2*edge_num_max;$/;"	m	class:Graph	access:private
+Graph::arcs	graph.h	/^	arc					*arcs, *arc_last, *arc_max; \/\/ arc_last = arcs+2*edge_num, arc_max = arcs+2*edge_num_max;$/;"	m	class:Graph	access:private
+Graph::augment	graph.h	/^	void Graph<captype,tcaptype,flowtype>::augment(arc *middle_arc)$/;"	f	class:Graph	signature:(arc *middle_arc)
+Graph::augment	graph.h	/^	void augment(arc *middle_arc);$/;"	p	class:Graph	access:private	signature:(arc *middle_arc)
+Graph::changed_list	graph.h	/^	Block<node_id>		*changed_list;$/;"	m	class:Graph	access:private
+Graph::error_function	graph.h	/^	void	(*error_function)(char *);	\/\/ this function is called if a error occurs,$/;"	m	class:Graph	access:private
+Graph::flow	graph.h	/^	flowtype			flow;		\/\/ total flow$/;"	m	class:Graph	access:private
+Graph::get_arc_ends	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::get_arc_ends(arc* a, node_id& i, node_id& j)$/;"	f	class:Graph	signature:(arc* a, node_id& i, node_id& j)
+Graph::get_arc_ends	graph.h	/^	void get_arc_ends(arc_id a, node_id& i, node_id& j); \/\/ returns i,j to that a = i->j$/;"	p	class:Graph	access:public	signature:(arc_id a, node_id& i, node_id& j)
+Graph::get_arc_num	graph.h	/^	int get_arc_num() { return (int)(arc_last - arcs); }$/;"	f	class:Graph	access:public	signature:()
+Graph::get_first_arc	graph.h	/^	arc_id get_first_arc();$/;"	p	class:Graph	access:public	signature:()
+Graph::get_first_arc	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::arc* Graph<captype,tcaptype,flowtype>::get_first_arc()$/;"	f	class:Graph	signature:()
+Graph::get_next_arc	graph.h	/^	arc_id get_next_arc(arc_id a);$/;"	p	class:Graph	access:public	signature:(arc_id a)
+Graph::get_next_arc	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::arc* Graph<captype,tcaptype,flowtype>::get_next_arc(arc* a) $/;"	f	class:Graph	signature:(arc* a)
+Graph::get_node_num	graph.h	/^	int get_node_num() { return node_num; }$/;"	f	class:Graph	access:public	signature:()
+Graph::get_rcap	graph.h	/^	captype get_rcap(arc* a);$/;"	p	class:Graph	access:public	signature:(arc* a)
+Graph::get_rcap	graph.h	/^	inline captype Graph<captype,tcaptype,flowtype>::get_rcap(arc* a)$/;"	f	class:Graph	signature:(arc* a)
+Graph::get_trcap	graph.h	/^	inline tcaptype Graph<captype,tcaptype,flowtype>::get_trcap(node_id i)$/;"	f	class:Graph	signature:(node_id i)
+Graph::get_trcap	graph.h	/^	tcaptype get_trcap(node_id i); $/;"	p	class:Graph	access:public	signature:(node_id i)
+Graph::mark_node	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::mark_node(node_id _i)$/;"	f	class:Graph	signature:(node_id _i)
+Graph::mark_node	graph.h	/^	void mark_node(node_id i);$/;"	p	class:Graph	access:public	signature:(node_id i)
+Graph::maxflow	graph.h	/^	flowtype Graph<captype,tcaptype,flowtype>::maxflow(bool reuse_trees, Block<node_id>* _changed_list)$/;"	f	class:Graph	signature:(bool reuse_trees, Block<node_id>* _changed_list)
+Graph::maxflow	graph.h	/^	flowtype maxflow(bool reuse_trees = false, Block<node_id>* changed_list = NULL);$/;"	p	class:Graph	access:public	signature:(bool reuse_trees = false, Block<node_id>* changed_list = NULL)
+Graph::maxflow_init	graph.h	/^	void Graph<captype,tcaptype,flowtype>::maxflow_init()$/;"	f	class:Graph	signature:()
+Graph::maxflow_init	graph.h	/^	void maxflow_init();             \/\/ called if reuse_trees == false$/;"	p	class:Graph	access:private	signature:()
+Graph::maxflow_iteration	graph.h	/^	int					maxflow_iteration; \/\/ counter$/;"	m	class:Graph	access:private
+Graph::maxflow_reuse_trees_init	graph.h	/^	void Graph<captype,tcaptype,flowtype>::maxflow_reuse_trees_init()$/;"	f	class:Graph	signature:()
+Graph::maxflow_reuse_trees_init	graph.h	/^	void maxflow_reuse_trees_init(); \/\/ called if reuse_trees == true$/;"	p	class:Graph	access:private	signature:()
+Graph::next_active	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::node* Graph<captype,tcaptype,flowtype>::next_active()$/;"	f	class:Graph	signature:()
+Graph::next_active	graph.h	/^	node *next_active();$/;"	p	class:Graph	access:private	signature:()
+Graph::node	graph.h	/^	struct node$/;"	s	class:Graph	access:private
+Graph::node::DIST	graph.h	/^		int			DIST;		\/\/ distance to the terminal$/;"	m	struct:Graph::node	access:public
+Graph::node::TS	graph.h	/^		int			TS;			\/\/ timestamp showing when DIST was computed$/;"	m	struct:Graph::node	access:public
+Graph::node::first	graph.h	/^		arc			*first;		\/\/ first outcoming arc$/;"	m	struct:Graph::node	access:public
+Graph::node::is_in_changed_list	graph.h	/^		int			is_in_changed_list : 1; \/\/ set by maxflow if $/;"	m	struct:Graph::node	access:public
+Graph::node::is_marked	graph.h	/^		int			is_marked : 1;	\/\/ set by mark_node()$/;"	m	struct:Graph::node	access:public
+Graph::node::is_sink	graph.h	/^		int			is_sink : 1;	\/\/ flag showing whether the node is in the source or in the sink tree (if parent!=NULL)$/;"	m	struct:Graph::node	access:public
+Graph::node::next	graph.h	/^		node		*next;		\/\/ pointer to the next active node$/;"	m	struct:Graph::node	access:public
+Graph::node::parent	graph.h	/^		arc			*parent;	\/\/ node's parent$/;"	m	struct:Graph::node	access:public
+Graph::node::tr_cap	graph.h	/^		tcaptype	tr_cap;		\/\/ if tr_cap > 0 then tr_cap is residual capacity of the arc SOURCE->node$/;"	m	struct:Graph::node	access:public
+Graph::node_id	graph.h	/^	typedef int node_id;$/;"	t	class:Graph	access:public
+Graph::node_last	graph.h	/^	node				*nodes, *node_last, *node_max; \/\/ node_last = nodes+node_num, node_max = nodes+node_num_max;$/;"	m	class:Graph	access:private
+Graph::node_max	graph.h	/^	node				*nodes, *node_last, *node_max; \/\/ node_last = nodes+node_num, node_max = nodes+node_num_max;$/;"	m	class:Graph	access:private
+Graph::node_num	graph.h	/^	int					node_num;$/;"	m	class:Graph	access:private
+Graph::nodeptr	graph.h	/^	struct nodeptr$/;"	s	class:Graph	access:private
+Graph::nodeptr::next	graph.h	/^		nodeptr		*next;$/;"	m	struct:Graph::nodeptr	access:public
+Graph::nodeptr::ptr	graph.h	/^		node    	*ptr;$/;"	m	struct:Graph::nodeptr	access:public
+Graph::nodeptr_block	graph.h	/^	DBlock<nodeptr>		*nodeptr_block;$/;"	m	class:Graph	access:private
+Graph::nodes	graph.h	/^	node				*nodes, *node_last, *node_max; \/\/ node_last = nodes+node_num, node_max = nodes+node_num_max;$/;"	m	class:Graph	access:private
+Graph::orphan_first	graph.h	/^	nodeptr				*orphan_first, *orphan_last;		\/\/ list of pointers to orphans$/;"	m	class:Graph	access:private
+Graph::orphan_last	graph.h	/^	nodeptr				*orphan_first, *orphan_last;		\/\/ list of pointers to orphans$/;"	m	class:Graph	access:private
+Graph::process_sink_orphan	graph.h	/^	void Graph<captype,tcaptype,flowtype>::process_sink_orphan(node *i)$/;"	f	class:Graph	signature:(node *i)
+Graph::process_sink_orphan	graph.h	/^	void process_sink_orphan(node *i);$/;"	p	class:Graph	access:private	signature:(node *i)
+Graph::process_source_orphan	graph.h	/^	void Graph<captype,tcaptype,flowtype>::process_source_orphan(node *i)$/;"	f	class:Graph	signature:(node *i)
+Graph::process_source_orphan	graph.h	/^	void process_source_orphan(node *i);$/;"	p	class:Graph	access:private	signature:(node *i)
+Graph::queue_first	graph.h	/^	node				*queue_first[2], *queue_last[2];	\/\/ list of active nodes$/;"	m	class:Graph	access:private
+Graph::queue_last	graph.h	/^	node				*queue_first[2], *queue_last[2];	\/\/ list of active nodes$/;"	m	class:Graph	access:private
+Graph::reallocate_arcs	graph.h	/^	void Graph<captype,tcaptype,flowtype>::reallocate_arcs()$/;"	f	class:Graph	signature:()
+Graph::reallocate_arcs	graph.h	/^	void reallocate_arcs();$/;"	p	class:Graph	access:private	signature:()
+Graph::reallocate_nodes	graph.h	/^	void Graph<captype,tcaptype,flowtype>::reallocate_nodes(int num)$/;"	f	class:Graph	signature:(int num)
+Graph::reallocate_nodes	graph.h	/^	void reallocate_nodes(int num); \/\/ num is the number of new nodes$/;"	p	class:Graph	access:private	signature:(int num)
+Graph::remove_from_changed_list	graph.h	/^	void remove_from_changed_list(node_id i) $/;"	f	class:Graph	access:public	signature:(node_id i)
+Graph::reset	graph.h	/^	void Graph<captype,tcaptype,flowtype>::reset()$/;"	f	class:Graph	signature:()
+Graph::reset	graph.h	/^	void reset();$/;"	p	class:Graph	access:public	signature:()
+Graph::set_active	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_active(node *i)$/;"	f	class:Graph	signature:(node *i)
+Graph::set_active	graph.h	/^	void set_active(node *i);$/;"	p	class:Graph	access:private	signature:(node *i)
+Graph::set_orphan_front	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_orphan_front(node *i)$/;"	f	class:Graph	signature:(node *i)
+Graph::set_orphan_front	graph.h	/^	void set_orphan_front(node* i); \/\/ add to the beginning of the list$/;"	p	class:Graph	access:private	signature:(node* i)
+Graph::set_orphan_rear	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_orphan_rear(node *i)$/;"	f	class:Graph	signature:(node *i)
+Graph::set_orphan_rear	graph.h	/^	void set_orphan_rear(node* i);  \/\/ add to the end of the list$/;"	p	class:Graph	access:private	signature:(node* i)
+Graph::set_rcap	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_rcap(arc* a, captype rcap)$/;"	f	class:Graph	signature:(arc* a, captype rcap)
+Graph::set_rcap	graph.h	/^	void set_rcap(arc* a, captype rcap);$/;"	p	class:Graph	access:public	signature:(arc* a, captype rcap)
+Graph::set_trcap	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_trcap(node_id i, tcaptype trcap)$/;"	f	class:Graph	signature:(node_id i, tcaptype trcap)
+Graph::set_trcap	graph.h	/^	void set_trcap(node_id i, tcaptype trcap); $/;"	p	class:Graph	access:public	signature:(node_id i, tcaptype trcap)
+Graph::termtype	graph.h	/^	} termtype; \/\/ terminals $/;"	t	class:Graph	typeref:enum:Graph::__anon1	access:public
+Graph::test_consistency	graph.h	/^	void Graph<captype,tcaptype,flowtype>::test_consistency(node* current_node)$/;"	f	class:Graph	signature:(node* current_node)
+Graph::test_consistency	graph.h	/^	void test_consistency(node* current_node=NULL); \/\/ debug function$/;"	p	class:Graph	access:private	signature:(node* current_node=NULL)
+Graph::what_segment	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::termtype Graph<captype,tcaptype,flowtype>::what_segment(node_id i, termtype default_segm)$/;"	f	class:Graph	signature:(node_id i, termtype default_segm)
+Graph::what_segment	graph.h	/^	termtype what_segment(node_id i, termtype default_segm = SOURCE);$/;"	p	class:Graph	access:public	signature:(node_id i, termtype default_segm = SOURCE)
+Graph::~Graph	graph.h	/^	Graph<captype,tcaptype,flowtype>::~Graph()$/;"	f	class:Graph	signature:()
+Graph::~Graph	graph.h	/^	~Graph();$/;"	p	class:Graph	access:public	signature:()
+HOP_FIELDS	hierPn_mex.cpp	/^const char* HOP_FIELDS[HOP_N_OF_FIELDS] = {"ind", "w", "gamma", "Q"};$/;"	v
+INFINITE_D	graph.h	57;"	d
+NODEPTR_BLOCK_SIZE	graph.h	/^	static const int NODEPTR_BLOCK_SIZE = 128;$/;"	m	class:Graph	access:private
+New	block.h	/^	Type *New()$/;"	f	class:DBlock	access:public	signature:()
+New	block.h	/^	Type *New(int num = 1)$/;"	f	class:Block	access:public	signature:(int num = 1)
+ORPHAN	graph.h	54;"	d
+Reset	block.h	/^	void Reset()$/;"	f	class:Block	access:public	signature:()
+SINK	graph.h	/^		SINK	= 1$/;"	e	enum:Graph::__anon1
+SOURCE	graph.h	/^		SOURCE	= 0,$/;"	e	enum:Graph::__anon1
+ScanFirst	block.h	/^	Type *ScanFirst()$/;"	f	class:Block	access:public	signature:()
+ScanNext	block.h	/^	Type *ScanNext()$/;"	f	class:Block	access:public	signature:()
+SetOneHOP	energy.h	/^        int SetOneHOP(int n, \/\/ number of nodes participating in this potential$/;"	f	class:Energy	access:public	signature:(int n, int* ind, termType* weights, termType* gammas, termType Q)
+SetPairCost	energy.h	/^        void SetPairCost(const int * pairs, const termType* sc)$/;"	f	class:Energy	access:public	signature:(const int * pairs, const termType* sc)
+SetUnaryCost	energy.h	/^        void SetUnaryCost(const termType* dc)$/;"	f	class:Energy	access:public	signature:(const termType* dc)
+TERMINAL	graph.h	53;"	d
+TIME	graph.h	/^	int					TIME;								\/\/ monotonically increasing global counter$/;"	m	class:Graph	access:private
+TS	graph.h	/^		int			TS;			\/\/ timestamp showing when DIST was computed$/;"	m	struct:Graph::node	access:public
+__BLOCK_H__	block.h	91;"	d
+__ENERGY_H__	energy.h	2;"	d
+__GRAPH_H__	graph.h	40;"	d
+__HOP_A_EXPAND_	expand.h	2;"	d
+add_edge	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::add_edge(node_id _i, node_id _j, captype cap, captype rev_cap)$/;"	f	class:Graph	signature:(node_id _i, node_id _j, captype cap, captype rev_cap)
+add_edge	graph.h	/^	void add_edge(node_id i, node_id j, captype cap, captype rev_cap);$/;"	p	class:Graph	access:public	signature:(node_id i, node_id j, captype cap, captype rev_cap)
+add_node	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::node_id Graph<captype,tcaptype,flowtype>::add_node(int num)$/;"	f	class:Graph	signature:(int num)
+add_node	graph.h	/^	node_id add_node(int num = 1);$/;"	p	class:Graph	access:public	signature:(int num = 1)
+add_to_changed_list	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::add_to_changed_list(node *i)$/;"	f	class:Graph	signature:(node *i)
+add_to_changed_list	graph.h	/^	void add_to_changed_list(node* i);$/;"	p	class:Graph	access:private	signature:(node* i)
+add_tweights	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::add_tweights(node_id i, tcaptype cap_source, tcaptype cap_sink)$/;"	f	class:Graph	signature:(node_id i, tcaptype cap_source, tcaptype cap_sink)
+add_tweights	graph.h	/^	void add_tweights(node_id i, tcaptype cap_source, tcaptype cap_sink);$/;"	p	class:Graph	access:public	signature:(node_id i, tcaptype cap_source, tcaptype cap_sink)
+arc	graph.h	/^	struct arc$/;"	s	class:Graph	access:private
+arc_id	graph.h	/^	typedef arc* arc_id;$/;"	t	class:Graph	access:public
+arc_last	graph.h	/^	arc					*arcs, *arc_last, *arc_max; \/\/ arc_last = arcs+2*edge_num, arc_max = arcs+2*edge_num_max;$/;"	m	class:Graph	access:private
+arc_max	graph.h	/^	arc					*arcs, *arc_last, *arc_max; \/\/ arc_last = arcs+2*edge_num, arc_max = arcs+2*edge_num_max;$/;"	m	class:Graph	access:private
+arcs	graph.h	/^	arc					*arcs, *arc_last, *arc_max; \/\/ arc_last = arcs+2*edge_num, arc_max = arcs+2*edge_num_max;$/;"	m	class:Graph	access:private
+augment	graph.h	/^	void Graph<captype,tcaptype,flowtype>::augment(arc *middle_arc)$/;"	f	class:Graph	signature:(arc *middle_arc)
+augment	graph.h	/^	void augment(arc *middle_arc);$/;"	p	class:Graph	access:private	signature:(arc *middle_arc)
+block	block.h	/^	} block;$/;"	t	class:Block	typeref:struct:Block::block_st	access:private
+block	block.h	/^	} block;$/;"	t	class:DBlock	typeref:struct:DBlock::block_st	access:private
+block_item	block.h	/^	} block_item;$/;"	t	class:DBlock	typeref:union:DBlock::block_item_st	access:private
+block_item_st	block.h	/^	typedef union block_item_st$/;"	u	class:DBlock	access:private
+block_size	block.h	/^	int			block_size;$/;"	m	class:DBlock	access:private
+block_size	block.h	/^	int		block_size;$/;"	m	class:Block	access:private
+block_st	block.h	/^	typedef struct block_st$/;"	s	class:Block	access:private
+block_st	block.h	/^	typedef struct block_st$/;"	s	class:DBlock	access:private
+cardinality	expand.h	/^		termType cardinality(int i, int label)$/;"	f	class:AExpand	access:private	signature:(int i, int label)
+changed_list	graph.h	/^	Block<node_id>		*changed_list;$/;"	m	class:Graph	access:private
+compute_energy	expand.h	/^		termType compute_energy(termType& ue, termType& pe, termType& he)$/;"	f	class:AExpand	access:private	signature:(termType& ue, termType& pe, termType& he)
+current	block.h	/^		Type					*current, *last;$/;"	m	struct:Block::block_st	access:public
+data	block.h	/^		Type					data[1];$/;"	m	struct:Block::block_st	access:public
+data	block.h	/^		block_item				data[1];$/;"	m	struct:DBlock::block_st	access:public
+energy	expand.h	/^		Energy<termType> *energy; \/\/ HO-energy formulation$/;"	m	class:AExpand	access:private
+energy	robustpn_test.m	/^function [uE pE hE E] = energy(sG, Dc, hop, labels)$/;"	f
+error_function	block.h	/^	void	(*error_function)(char *);$/;"	m	class:Block	access:private
+error_function	block.h	/^	void	(*error_function)(char *);$/;"	m	class:DBlock	access:private
+error_function	graph.h	/^	void	(*error_function)(char *);	\/\/ this function is called if a error occurs,$/;"	m	class:Graph	access:private
+expand	expand.h	/^		void expand(int label)$/;"	f	class:AExpand	access:private	signature:(int label)
+filter_bank	robustpn_test.m	/^function fb = filter_bank(img)$/;"	f
+first	block.h	/^	block		*first;$/;"	m	class:DBlock	access:private
+first	block.h	/^	block	*first;$/;"	m	class:Block	access:private
+first	graph.h	/^		arc			*first;		\/\/ first outcoming arc$/;"	m	struct:Graph::node	access:public
+first_free	block.h	/^	block_item	*first_free;$/;"	m	class:DBlock	access:private
+flow	graph.h	/^	flowtype			flow;		\/\/ total flow$/;"	m	class:Graph	access:private
+g	expand.h	/^		Graph<termType, termType, termType> *g; \/\/ min-cut\/max-flow class$/;"	m	class:AExpand	access:private
+getMaxLabel	expand.h	/^		int getMaxLabel(int i)$/;"	f	class:AExpand	access:private	signature:(int i)
+get_arc_ends	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::get_arc_ends(arc* a, node_id& i, node_id& j)$/;"	f	class:Graph	signature:(arc* a, node_id& i, node_id& j)
+get_arc_ends	graph.h	/^	void get_arc_ends(arc_id a, node_id& i, node_id& j); \/\/ returns i,j to that a = i->j$/;"	p	class:Graph	access:public	signature:(arc_id a, node_id& i, node_id& j)
+get_arc_num	graph.h	/^	int get_arc_num() { return (int)(arc_last - arcs); }$/;"	f	class:Graph	access:public	signature:()
+get_first_arc	graph.h	/^	arc_id get_first_arc();$/;"	p	class:Graph	access:public	signature:()
+get_first_arc	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::arc* Graph<captype,tcaptype,flowtype>::get_first_arc()$/;"	f	class:Graph	signature:()
+get_next_arc	graph.h	/^	arc_id get_next_arc(arc_id a);$/;"	p	class:Graph	access:public	signature:(arc_id a)
+get_next_arc	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::arc* Graph<captype,tcaptype,flowtype>::get_next_arc(arc* a) $/;"	f	class:Graph	signature:(arc* a)
+get_node_num	graph.h	/^	int get_node_num() { return node_num; }$/;"	f	class:Graph	access:public	signature:()
+get_rcap	graph.h	/^	captype get_rcap(arc* a);$/;"	p	class:Graph	access:public	signature:(arc* a)
+get_rcap	graph.h	/^	inline captype Graph<captype,tcaptype,flowtype>::get_rcap(arc* a)$/;"	f	class:Graph	signature:(arc* a)
+get_trcap	graph.h	/^	inline tcaptype Graph<captype,tcaptype,flowtype>::get_trcap(node_id i)$/;"	f	class:Graph	signature:(node_id i)
+get_trcap	graph.h	/^	tcaptype get_trcap(node_id i); $/;"	p	class:Graph	access:public	signature:(node_id i)
+head	graph.h	/^		node		*head;		\/\/ node the arc points to$/;"	m	struct:Graph::arc	access:public
+hierPn	hierPn_mex.cpp	/^void hierPn(int nout, mxArray* pout[], int nin, const mxArray* pin[])$/;"	f	signature:(int nout, mxArray* pout[], int nin, const mxArray* pin[])
+hierPn	hierPn_mex.cpp	/^void hierPn(int nout, mxArray* pout[], int nin, const mxArray*pin[]);$/;"	p	file:	signature:(int nout, mxArray* pout[], int nin, const mxArray*pin[])
+higherCost	energy.h	/^        termType *higherCost;  \/\/ gamma_k values for the HOpotentials (#labels+1)x(#higher), last entry at each column is gamma_max$/;"	m	class:Energy	access:private
+higherElements	energy.h	/^        int *higherElements; \/\/ for each HOpotential - the number of nodes participating in it, i.e., there are higherElements[j-1] nodes in HOpotential j.$/;"	m	class:Energy	access:private
+higherIndex	energy.h	/^        int **higherIndex; \/\/ an array per HOpotential with indices of participating nodes$/;"	m	class:Energy	access:private
+higherP	energy.h	/^        termType *higherP; \/\/ BAGON: sum w_i of each HOpotential (P value)$/;"	m	class:Energy	access:private
+higherTruncation	energy.h	/^        termType *higherTruncation; \/\/ Q_k values - one per HOpotential$/;"	m	class:Energy	access:private
+higherWeights	energy.h	/^        termType **higherWeights; \/\/ BAGON: w_i weights for each node at a HOpotential$/;"	m	class:Energy	access:private
+i	expand.h	/^		int maxiter, i, j; $/;"	m	class:AExpand	access:private
+imsize	robustpn_test.m	/^function varargout = imsize(img)$/;"	f
+is_in_changed_list	graph.h	/^		int			is_in_changed_list : 1; \/\/ set by maxflow if $/;"	m	struct:Graph::node	access:public
+is_marked	graph.h	/^		int			is_marked : 1;	\/\/ set by mark_node()$/;"	m	struct:Graph::node	access:public
+is_sink	graph.h	/^		int			is_sink : 1;	\/\/ flag showing whether the node is in the source or in the sink tree (if parent!=NULL)$/;"	m	struct:Graph::node	access:public
+j	expand.h	/^		int maxiter, i, j; $/;"	m	class:AExpand	access:private
+label_map	expand.h	/^		int *label_map; \/\/ current assignment of labels to nodes - **not allocated inside this class**$/;"	m	class:AExpand	access:private
+lambda	energy.h	/^        termType lambda; \/\/ to be multiplied with the HOPs$/;"	m	class:Energy	access:private
+lambda	expand.h	/^        termType lambda;$/;"	m	class:AExpand	access:private
+last	block.h	/^		Type					*current, *last;$/;"	m	struct:Block::block_st	access:public
+last	block.h	/^	block	*last;$/;"	m	class:Block	access:private
+make_dc	robustpn_test.m	/^function     Dc = make_dc(img, mdl)$/;"	f
+make_graph	robustpn_test.m	/^function     sG = make_graph(img)$/;"	f
+make_hop	robustpn_test.m	/^function    hop = make_hop(mss,nl)$/;"	f
+mark_node	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::mark_node(node_id _i)$/;"	f	class:Graph	signature:(node_id _i)
+mark_node	graph.h	/^	void mark_node(node_id i);$/;"	p	class:Graph	access:public	signature:(node_id i)
+maxflow	graph.h	/^	flowtype Graph<captype,tcaptype,flowtype>::maxflow(bool reuse_trees, Block<node_id>* _changed_list)$/;"	f	class:Graph	signature:(bool reuse_trees, Block<node_id>* _changed_list)
+maxflow	graph.h	/^	flowtype maxflow(bool reuse_trees = false, Block<node_id>* changed_list = NULL);$/;"	p	class:Graph	access:public	signature:(bool reuse_trees = false, Block<node_id>* changed_list = NULL)
+maxflow_init	graph.h	/^	void Graph<captype,tcaptype,flowtype>::maxflow_init()$/;"	f	class:Graph	signature:()
+maxflow_init	graph.h	/^	void maxflow_init();             \/\/ called if reuse_trees == false$/;"	p	class:Graph	access:private	signature:()
+maxflow_iteration	graph.h	/^	int					maxflow_iteration; \/\/ counter$/;"	m	class:Graph	access:private
+maxflow_reuse_trees_init	graph.h	/^	void Graph<captype,tcaptype,flowtype>::maxflow_reuse_trees_init()$/;"	f	class:Graph	signature:()
+maxflow_reuse_trees_init	graph.h	/^	void maxflow_reuse_trees_init(); \/\/ called if reuse_trees == true$/;"	p	class:Graph	access:private	signature:()
+maxiter	expand.h	/^		int maxiter, i, j; $/;"	m	class:AExpand	access:private
+mexFunction	hierPn_mex.cpp	/^mexFunction($/;"	f	signature:( int nout, mxArray* pout[], int nin, const mxArray* pin[])
+minimize	expand.h	/^		termType minimize(int *solution, termType* ee = NULL)$/;"	f	class:AExpand	access:public	signature:(int *solution, termType* ee = NULL)
+model	robustpn_test.m	/^function mdl = model(imgs, gts)$/;"	f
+my_err_func	expand.h	/^void my_err_func(char* msg)$/;"	f	signature:(char* msg)
+next	block.h	/^		struct block_st			*next;$/;"	m	struct:Block::block_st	typeref:struct:Block::block_st::block_st	access:public
+next	block.h	/^		struct block_st			*next;$/;"	m	struct:DBlock::block_st	typeref:struct:DBlock::block_st::block_st	access:public
+next	graph.h	/^		arc			*next;		\/\/ next arc with the same originating node$/;"	m	struct:Graph::arc	access:public
+next	graph.h	/^		node		*next;		\/\/ pointer to the next active node$/;"	m	struct:Graph::node	access:public
+next	graph.h	/^		nodeptr		*next;$/;"	m	struct:Graph::nodeptr	access:public
+next_active	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::node* Graph<captype,tcaptype,flowtype>::next_active()$/;"	f	class:Graph	signature:()
+next_active	graph.h	/^	node *next_active();$/;"	p	class:Graph	access:private	signature:()
+next_free	block.h	/^		block_item_st	*next_free;$/;"	m	union:DBlock::block_item_st	access:public
+nhigher	energy.h	/^        int nhigher; \/\/ number of higher order potentials$/;"	m	class:Energy	access:private
+nhigher	expand.h	/^        int nhigher; \/\/ number of HOpotentials$/;"	m	class:AExpand	access:private
+nlabel	energy.h	/^		int nlabel; \/\/ number of labels$/;"	m	class:Energy	access:private
+nlabel	expand.h	/^        int nlabel; \/\/ number of possible lables$/;"	m	class:AExpand	access:private
+node	graph.h	/^	struct node$/;"	s	class:Graph	access:private
+node_id	graph.h	/^	typedef int node_id;$/;"	t	class:Graph	access:public
+node_id_t	expand.h	/^        typedef typename Graph<termType, termType, termType>::node_id node_id_t;$/;"	t	class:AExpand	access:private
+node_last	graph.h	/^	node				*nodes, *node_last, *node_max; \/\/ node_last = nodes+node_num, node_max = nodes+node_num_max;$/;"	m	class:Graph	access:private
+node_max	graph.h	/^	node				*nodes, *node_last, *node_max; \/\/ node_last = nodes+node_num, node_max = nodes+node_num_max;$/;"	m	class:Graph	access:private
+node_num	graph.h	/^	int					node_num;$/;"	m	class:Graph	access:private
+nodeptr	graph.h	/^	struct nodeptr$/;"	s	class:Graph	access:private
+nodeptr_block	graph.h	/^	DBlock<nodeptr>		*nodeptr_block;$/;"	m	class:Graph	access:private
+nodes	expand.h	/^		node_id_t *nodes; \/\/ nodes in graph$/;"	m	class:AExpand	access:private
+nodes	graph.h	/^	node				*nodes, *node_last, *node_max; \/\/ node_last = nodes+node_num, node_max = nodes+node_num_max;$/;"	m	class:Graph	access:private
+npair	energy.h	/^        int npair;  \/\/ pair-wise potentials, assuming Sc=[0 1;1 0];$/;"	m	class:Energy	access:private
+npair	expand.h	/^        int npair;  \/\/ number of pair-wise potentials$/;"	m	class:AExpand	access:private
+nvar	energy.h	/^        int nvar;    \/\/ number of nodes in the graph (i.e., pixels)$/;"	m	class:Energy	access:private
+nvar	expand.h	/^		int nvar;   \/\/ number of nodes (pixels)$/;"	m	class:AExpand	access:private
+orphan_first	graph.h	/^	nodeptr				*orphan_first, *orphan_last;		\/\/ list of pointers to orphans$/;"	m	class:Graph	access:private
+orphan_last	graph.h	/^	nodeptr				*orphan_first, *orphan_last;		\/\/ list of pointers to orphans$/;"	m	class:Graph	access:private
+pairCost	energy.h	/^        termType *pairCost;       \/\/ if nodes in pair (i,j) are labeled differently, assumes Sc = [0 1;1 0]  $/;"	m	class:Energy	access:private
+pairIndex	energy.h	/^		int *pairIndex; \/\/ (2x#pairs)  indices of participating nodes for each pair-wise potential$/;"	m	class:Energy	access:private
+parent	graph.h	/^		arc			*parent;	\/\/ node's parent$/;"	m	struct:Graph::node	access:public
+process_sink_orphan	graph.h	/^	void Graph<captype,tcaptype,flowtype>::process_sink_orphan(node *i)$/;"	f	class:Graph	signature:(node *i)
+process_sink_orphan	graph.h	/^	void process_sink_orphan(node *i);$/;"	p	class:Graph	access:private	signature:(node *i)
+process_source_orphan	graph.h	/^	void Graph<captype,tcaptype,flowtype>::process_source_orphan(node *i)$/;"	f	class:Graph	signature:(node *i)
+process_source_orphan	graph.h	/^	void process_source_orphan(node *i);$/;"	p	class:Graph	access:private	signature:(node *i)
+ptr	graph.h	/^		node    	*ptr;$/;"	m	struct:Graph::nodeptr	access:public
+queue_first	graph.h	/^	node				*queue_first[2], *queue_last[2];	\/\/ list of active nodes$/;"	m	class:Graph	access:private
+queue_last	graph.h	/^	node				*queue_first[2], *queue_last[2];	\/\/ list of active nodes$/;"	m	class:Graph	access:private
+r_cap	graph.h	/^		captype		r_cap;		\/\/ residual capacity$/;"	m	struct:Graph::arc	access:public
+reallocate_arcs	graph.h	/^	void Graph<captype,tcaptype,flowtype>::reallocate_arcs()$/;"	f	class:Graph	signature:()
+reallocate_arcs	graph.h	/^	void reallocate_arcs();$/;"	p	class:Graph	access:private	signature:()
+reallocate_nodes	graph.h	/^	void Graph<captype,tcaptype,flowtype>::reallocate_nodes(int num)$/;"	f	class:Graph	signature:(int num)
+reallocate_nodes	graph.h	/^	void reallocate_nodes(int num); \/\/ num is the number of new nodes$/;"	p	class:Graph	access:private	signature:(int num)
+remove_from_changed_list	graph.h	/^	void remove_from_changed_list(node_id i) $/;"	f	class:Graph	access:public	signature:(node_id i)
+reset	graph.h	/^	void Graph<captype,tcaptype,flowtype>::reset()$/;"	f	class:Graph	signature:()
+reset	graph.h	/^	void reset();$/;"	p	class:Graph	access:public	signature:()
+robustpn_test	robustpn_test.m	/^function robustpn_test()$/;"	f
+scan_current_block	block.h	/^	block	*scan_current_block;$/;"	m	class:Block	access:private
+scan_current_data	block.h	/^	Type	*scan_current_data;$/;"	m	class:Block	access:private
+set_active	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_active(node *i)$/;"	f	class:Graph	signature:(node *i)
+set_active	graph.h	/^	void set_active(node *i);$/;"	p	class:Graph	access:private	signature:(node *i)
+set_orphan_front	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_orphan_front(node *i)$/;"	f	class:Graph	signature:(node *i)
+set_orphan_front	graph.h	/^	void set_orphan_front(node* i); \/\/ add to the beginning of the list$/;"	p	class:Graph	access:private	signature:(node* i)
+set_orphan_rear	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_orphan_rear(node *i)$/;"	f	class:Graph	signature:(node *i)
+set_orphan_rear	graph.h	/^	void set_orphan_rear(node* i);  \/\/ add to the end of the list$/;"	p	class:Graph	access:private	signature:(node* i)
+set_rcap	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_rcap(arc* a, captype rcap)$/;"	f	class:Graph	signature:(arc* a, captype rcap)
+set_rcap	graph.h	/^	void set_rcap(arc* a, captype rcap);$/;"	p	class:Graph	access:public	signature:(arc* a, captype rcap)
+set_trcap	graph.h	/^	inline void Graph<captype,tcaptype,flowtype>::set_trcap(node_id i, tcaptype trcap)$/;"	f	class:Graph	signature:(node_id i, tcaptype trcap)
+set_trcap	graph.h	/^	void set_trcap(node_id i, tcaptype trcap); $/;"	p	class:Graph	access:public	signature:(node_id i, tcaptype trcap)
+sister	graph.h	/^		arc			*sister;	\/\/ reverse arc$/;"	m	struct:Graph::arc	access:public
+t	block.h	/^		Type			t;$/;"	m	union:DBlock::block_item_st	access:public
+termtype	graph.h	/^	} termtype; \/\/ terminals $/;"	t	class:Graph	typeref:enum:Graph::__anon1	access:public
+test_consistency	graph.h	/^	void Graph<captype,tcaptype,flowtype>::test_consistency(node* current_node)$/;"	f	class:Graph	signature:(node* current_node)
+test_consistency	graph.h	/^	void test_consistency(node* current_node=NULL); \/\/ debug function$/;"	p	class:Graph	access:private	signature:(node* current_node=NULL)
+tr_cap	graph.h	/^		tcaptype	tr_cap;		\/\/ if tr_cap > 0 then tr_cap is residual capacity of the arc SOURCE->node$/;"	m	struct:Graph::node	access:public
+unaryCost	energy.h	/^		termType *unaryCost;    \/\/ (#labels)x(#nodes) DataCost unaryCost(L,i) -> assign node i label L$/;"	m	class:Energy	access:private
+what_segment	graph.h	/^	inline typename Graph<captype,tcaptype,flowtype>::termtype Graph<captype,tcaptype,flowtype>::what_segment(node_id i, termtype default_segm)$/;"	f	class:Graph	signature:(node_id i, termtype default_segm)
+what_segment	graph.h	/^	termtype what_segment(node_id i, termtype default_segm = SOURCE);$/;"	p	class:Graph	access:public	signature:(node_id i, termtype default_segm = SOURCE)
+~Block	block.h	/^	~Block() { while (first) { block *next = first -> next; delete first; first = next; } }$/;"	f	class:Block	access:public	signature:()
+~DBlock	block.h	/^	~DBlock() { while (first) { block *next = first -> next; delete first; first = next; } }$/;"	f	class:DBlock	access:public	signature:()
+~Energy	energy.h	/^		~Energy()$/;"	f	class:Energy	access:public	signature:()
+~Graph	graph.h	/^	Graph<captype,tcaptype,flowtype>::~Graph()$/;"	f	class:Graph	signature:()
+~Graph	graph.h	/^	~Graph();$/;"	p	class:Graph	access:public	signature:()

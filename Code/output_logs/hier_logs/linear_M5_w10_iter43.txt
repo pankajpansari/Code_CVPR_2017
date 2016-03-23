@@ -1,0 +1,13 @@
+[Warning: Name is nonexistent or not a directory: /home/pankaj/Max_of_convex_code_new/Code/Baseline_code/matlabcodes/../dependencies/robustpn] 
+[> In path (line 109)
+  In addpath (line 88)
+  In startup_all (line 20)
+  In wrapperParsimoniousHier (line 3)
+  In hier_command_list_3 (line 281)] 
+Number of variables = 10000 
+Number of labels = 20 
+Truncation factor = 5 
+Lambda = 1 
+Time taken = 27.980 
+
+Hier Lambda:1	Unary:328070.000	High:82810.000	Total Energy:410880.000	Time:27.980	Tree:1 

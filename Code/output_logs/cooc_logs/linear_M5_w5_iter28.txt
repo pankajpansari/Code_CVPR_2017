@@ -1,0 +1,115 @@
+[?1h=
+                                                                                           < M A T L A B (R) >
+                                                                                 Copyright 1984-2015 The MathWorks, Inc.
+                                                                                 R2015b (8.6.0.267246) 64-bit (glnxa64)
+                                                                                             August 20, 2015
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+[Warning: Name is nonexistent or not a directory: /home/pankaj/Max_of_convex_code_new/Code/Baseline_code/matlabcodes/../dependencies/robustpn] 
+[> In path (line 109)
+  In addpath (line 88)
+  In startup_all (line 20)
+  In wrapperParsimoniousCOOC (line 3)] 
+Number of variables = 10000 
+Number of labels = 20 
+Truncation factor = 5 
+Lambda = 1 
+Default initial labeling
+Energy: 501519
+Time: 0.10121
+Energy: 369749
+Time: 0.432717
+Energy: 358235
+Time: 0.898263
+Energy: 358235
+Time: 1.36061
+Energy: 358235
+Time: 1.80398
+Energy: 358235
+Time: 2.2879
+Energy: 358235
+Time: 2.60523
+Energy: 358235
+Time: 2.92153
+Energy: 358235
+Time: 3.236
+Energy: 358235
+Time: 3.55705
+Energy: 358235
+Time: 3.8751
+Energy: 358235
+Time: 4.18844
+Energy: 358235
+Time: 4.50356
+Energy: 358235
+Time: 4.81779
+Energy: 358235
+Time: 5.1305
+Energy: 358235
+Time: 5.44175
+Energy: 358235
+Time: 5.75406
+Energy: 358235
+Time: 6.07602
+Energy: 358235
+Time: 6.3888
+Energy: 358235
+Time: 6.70111
+Energy: 358235
+Time: 6.88937
+Energy: 358235
+Time: 7.08879
+Energy: 358235
+Time: 7.32746
+Energy: 358235
+Time: 7.72564
+Energy: 358235
+Time: 8.24991
+Energy: 358235
+Time: 8.82976
+Energy: 358235
+Time: 9.20083
+Energy: 358235
+Time: 9.53737
+Energy: 358235
+Time: 9.87379
+Energy: 358235
+Time: 10.1914
+Energy: 358235
+Time: 10.5042
+Energy: 358235
+Time: 10.8168
+Energy: 358235
+Time: 11.1322
+Energy: 358235
+Time: 11.446
+Energy: 358235
+Time: 11.7591
+Energy: 358235
+Time: 12.0703
+Energy: 358235
+Time: 12.3834
+Energy: 358235
+Time: 12.6956
+Energy: 358235
+Time: 13.0085
+Energy: 358235
+Time: 13.3215
+
+
+COOC Lambda:1	Unary:275425.000	High:82810.000	Total Energy:358235.000	Time:13.453 
+
+
+ans = 
+
+             params: [1x1 struct]
+            results: {[1x1 struct]}
+    clustersMetrics: {[1x1 struct]}
+
+[?1l>

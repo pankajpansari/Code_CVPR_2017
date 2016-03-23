@@ -1,0 +1,53 @@
+No reuse of flows
+---------------------------------------------------------------------------------------------------
+
+Range Expansion - Initialization
+Current energy: 499459
+
+
+Range: 1 - 15
+# nodes: 744000
+# arcs: 3210400
+Time for max-flow: 1.81534s
+Time for iteration: 1.89524
+current_energy = 261617
+Current energy: 261617
+
+
+Range: 2 - 16
+# nodes: 744000
+# arcs: 3210400
+Time for max-flow: 4.23668s
+Time for iteration: 4.29758
+current_energy = 261617
+Current energy: 261617
+
+
+Range: 3 - 17
+# nodes: 744000
+# arcs: 3210400
+Time for max-flow: 4.29192s
+Time for iteration: 4.3527
+current_energy = 261617
+Current energy: 261617
+
+
+Range: 4 - 18
+# nodes: 744000
+# arcs: 3210400
+Time for max-flow: 3.60993s
+Time for iteration: 3.67134
+current_energy = 261227
+Current energy: 261227
+
+
+Range: 5 - 19
+# nodes: 744000
+# arcs: 3210400
+Time for max-flow: 3.67513s
+Time for iteration: 3.7363
+current_energy = 260948
+Current energy: 260948
+
+
+Range: 6 - 20

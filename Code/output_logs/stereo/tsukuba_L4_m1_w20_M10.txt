@@ -1,0 +1,223 @@
+Parameters of the input file:
+
+Number of variables = 110592
+Number of labels = 16
+M = 5 m =  1
+Total number of cliques = 220635
+---------------------------------------------------------------------------------------------------
+
+Range Expansion - Initialization
+Current energy: 6.91338e+06
+
+
+Range: 1 - 4
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 8.53025s
+Time for iteration: 9.20483
+Current energy: 4.80306e+06
+
+
+Range: 2 - 5
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 7.82374s
+Time for iteration: 8.51589
+Current energy: 3.96329e+06
+
+
+Range: 3 - 6
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 9.65453s
+Time for iteration: 10.3511
+Current energy: 3.12715e+06
+
+
+Range: 4 - 7
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 26.2822s
+Time for iteration: 26.9743
+Current energy: 2.71718e+06
+
+
+Range: 5 - 8
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 47.5059s
+Time for iteration: 48.1931
+Current energy: 2.41764e+06
+
+
+Range: 6 - 9
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 18.5114s
+Time for iteration: 19.2988
+Current energy: 2.038e+06
+
+
+Range: 7 - 10
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 103.204s
+Time for iteration: 103.991
+Current energy: 1.85699e+06
+
+
+Range: 8 - 11
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 20.4466s
+Time for iteration: 21.1479
+Current energy: 1.56236e+06
+
+
+Range: 9 - 12
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 13.7205s
+Time for iteration: 14.3957
+Current energy: 1.49595e+06
+
+
+Range: 10 - 13
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 5.22096s
+Time for iteration: 5.90836
+Current energy: 1.41703e+06
+
+
+Range: 11 - 14
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.56816s
+Time for iteration: 4.24486
+Current energy: 1.41703e+06
+
+
+Range: 12 - 15
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.98848s
+Time for iteration: 4.70051
+Current energy: 1.32941e+06
+
+
+Range: 13 - 16
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 2.83865s
+Time for iteration: 3.50404
+Current energy: 1.30983e+06
+
+
+Range: 1 - 4
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.6109s
+Time for iteration: 4.28805
+Current energy: 1.30983e+06
+
+
+Range: 2 - 5
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 2.89032s
+Time for iteration: 3.57286
+Current energy: 1.30983e+06
+
+
+Range: 3 - 6
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 7.11381s
+Time for iteration: 7.78676
+Current energy: 1.30983e+06
+
+
+Range: 4 - 7
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 7.45048s
+Time for iteration: 8.12275
+Current energy: 1.30983e+06
+
+
+Range: 5 - 8
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 8.32343s
+Time for iteration: 9.0107
+Current energy: 1.30983e+06
+
+
+Range: 6 - 9
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 7.28443s
+Time for iteration: 7.9672
+Current energy: 1.30983e+06
+
+
+Range: 7 - 10
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.94683s
+Time for iteration: 4.62813
+Current energy: 1.30983e+06
+
+
+Range: 8 - 11
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.32406s
+Time for iteration: 3.99072
+Current energy: 1.30983e+06
+
+
+Range: 9 - 12
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 4.232s
+Time for iteration: 4.90854
+Current energy: 1.30983e+06
+
+
+Range: 10 - 13
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.33856s
+Time for iteration: 4.01555
+Current energy: 1.30983e+06
+
+
+Range: 11 - 14
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.24279s
+Time for iteration: 3.95569
+Current energy: 1.30983e+06
+
+
+Range: 12 - 15
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 3.04737s
+Time for iteration: 3.85459
+Current energy: 1.30983e+06
+
+
+Range: 13 - 16
+# nodes: 2207448
+# arcs: 10813218
+Time for max-flow: 2.70562s
+Time for iteration: 3.3914
+Current energy: 1.30983e+06
+Range Expansion - Completion
+
+Total execution time for range expansion: 354.935s
+Fraction not majority: 0.510534
+Fraction not min unary: 0.638129

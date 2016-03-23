@@ -1,0 +1,37 @@
+engs-24319	14:30:21 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	14:37:38 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter1.txt
+engs-24319	14:41:52 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter1.txt
+engs-24319	14:45:40 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter1.txt
+engs-24319	15:41:44 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	15:42:00 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter0.txt
+engs-24319	15:42:14 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter0.txt
+engs-24319	18:18:10 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	18:18:18 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter0.txt
+engs-24319	18:20:03 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	18:20:14 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter0.txt
+engs-24319	18:20:32 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter1.txt
+engs-24319	18:20:39 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter1.txt
+engs-24319	18:20:53 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter2.txt
+engs-24319	18:21:19 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter2.txt
+engs-24319	18:37:13 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter1.txt
+engs-24319	18:37:26 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter1.txt
+engs-24319	18:37:35 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter2.txt
+engs-24319	18:37:43 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter2.txt
+engs-24319	18:37:59 25-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter2.txt
+engs-24319	18:26:48 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	18:38:10 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter2.txt
+engs-24319	18:39:22 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter3.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter3.txt
+engs-24319	18:40:06 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	18:42:04 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter2.txt
+engs-24319	18:42:44 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter2.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter2.txt
+engs-24319	18:43:51 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter3.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter3.txt
+engs-24319	18:47:26 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	19:17:06 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M10_w5_iter0.txt
+engs-24319	19:22:58 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter0.txt
+engs-24319	19:28:53 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter1.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter1.txt
+engs-24319	19:48:17 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	19:52:25 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter0.txt'), quit()" > ../../output_logs/hier_logs/linear_M15_w5_iter0.txt
+engs-24319	20:27:49 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M5_w5_iter0.txt')" > ../../output_logs/hier_logs/linear_M5_w5_iter0.txt
+engs-24319	20:29:30 26-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter0.txt')" > ../../output_logs/hier_logs/linear_M10_w5_iter0.txt
+engs-24319	12:02:22 27-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M10_w5_iter0.txt')" > ../../output_logs/hier_logs/linear_M10_w5_iter0.txt
+engs-24319	12:03:05 27-Feb-16	matlab -nodisplay -nosplash -nojvm -r "wrapperParsimoniousHier('../../input_linear_M15_w5_iter0.txt')" > ../../output_logs/hier_logs/linear_M15_w5_iter0.txt

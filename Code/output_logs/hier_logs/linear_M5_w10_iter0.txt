@@ -1,0 +1,203 @@
+[Warning: Name is nonexistent or not a directory: /home/pankaj/Max_of_convex_code_new/Code/Baseline_code/matlabcodes/../dependencies/robustpn] 
+[> In path (line 109)
+  In addpath (line 88)
+  In startup_all (line 20)
+  In wrapperParsimoniousHier (line 3)
+  In hier_command_list_1 (line 3)] 
+Number of variables = 10000 
+Number of labels = 20 
+Truncation factor = 5 
+Lambda = 1 
+Time taken = 35.603 
+
+Hier Lambda:1	Unary:246235.000	High:165680.000	Total Energy:411915.000	Time:35.603	Tree:1 
+[Warning: Name is nonexistent or not a directory: /home/pankaj/Max_of_convex_code_new/Code/Baseline_code/matlabcodes/../dependencies/robustpn] 
+[> In path (line 109)
+  In addpath (line 88)
+  In startup_all (line 20)
+  In wrapperParsimoniousCOOC (line 3)
+  In cooc_command_list (line 4)] 
+Number of variables = 10000 
+Number of labels = 20 
+Truncation factor = 5 
+Lambda = 1 
+Default initial labeling
+Energy: 499459
+Time: 0.091864
+Energy: 412161
+Time: 0.458232
+Energy: 412161
+Time: 0.780964
+Energy: 412161
+Time: 1.15556
+Energy: 412161
+Time: 1.62227
+Energy: 412161
+Time: 2.28404
+Energy: 412161
+Time: 2.78262
+Energy: 412161
+Time: 3.30346
+Energy: 412161
+Time: 3.80617
+Energy: 412161
+Time: 4.27844
+Energy: 412161
+Time: 4.81254
+Energy: 412161
+Time: 5.31844
+Energy: 412161
+Time: 5.80127
+Energy: 412161
+Time: 6.30017
+Energy: 412161
+Time: 6.76474
+Energy: 412161
+Time: 7.24328
+Energy: 412161
+Time: 7.7224
+Energy: 412161
+Time: 8.19611
+Energy: 412161
+Time: 8.67438
+Energy: 412161
+Time: 9.15291
+Energy: 412161
+Time: 9.30745
+Energy: 412161
+Time: 9.46327
+Energy: 412161
+Time: 9.7827
+Energy: 412161
+Time: 10.1572
+Energy: 412161
+Time: 10.6284
+Energy: 412161
+Time: 11.2856
+Energy: 412161
+Time: 11.7832
+Energy: 412161
+Time: 12.2947
+Energy: 412161
+Time: 12.8042
+Energy: 412161
+Time: 13.2772
+Energy: 412161
+Time: 13.8074
+Energy: 412161
+Time: 14.3085
+Energy: 412161
+Time: 14.7901
+Energy: 412161
+Time: 15.2898
+Energy: 412161
+Time: 15.7534
+Energy: 412161
+Time: 16.2344
+Energy: 412161
+Time: 16.711
+Energy: 412161
+Time: 17.184
+Energy: 412161
+Time: 17.6634
+Energy: 412161
+Time: 18.1374
+
+
+COOC Lambda:1	Unary:329351.000	High:82810.000	Total Energy:412161.000	Time:18.269 
+
+[Warning: Name is nonexistent or not a directory: /home/pankaj/Max_of_convex_code_new/Code/Baseline_code/matlabcodes/../dependencies/robustpn] 
+[> In path (line 109)
+  In addpath (line 88)
+  In startup_all (line 20)
+  In wrapperParsimoniousCOOC (line 3)
+  In cooc_command_list (line 4)] 
+Number of variables = 10000 
+Number of labels = 20 
+Truncation factor = 5 
+Lambda = 1 
+Default initial labeling
+Energy: 499459
+Time: 0.091851
+Energy: 412161
+Time: 0.459685
+Energy: 412161
+Time: 0.782185
+Energy: 412161
+Time: 1.15826
+Energy: 412161
+Time: 1.62417
+Energy: 412161
+Time: 2.2852
+Energy: 412161
+Time: 2.78552
+Energy: 412161
+Time: 3.30097
+Energy: 412161
+Time: 3.80969
+Energy: 412161
+Time: 4.28978
+Energy: 412161
+Time: 4.82158
+Energy: 412161
+Time: 5.32951
+Energy: 412161
+Time: 5.80991
+Energy: 412161
+Time: 6.31153
+Energy: 412161
+Time: 6.77923
+Energy: 412161
+Time: 7.26259
+Energy: 412161
+Time: 7.74267
+Energy: 412161
+Time: 8.22094
+Energy: 412161
+Time: 8.70191
+Energy: 412161
+Time: 9.18048
+Energy: 412161
+Time: 9.33843
+Energy: 412161
+Time: 9.49692
+Energy: 412161
+Time: 9.81715
+Energy: 412161
+Time: 10.1919
+Energy: 412161
+Time: 10.6592
+Energy: 412161
+Time: 11.3203
+Energy: 412161
+Time: 11.8198
+Energy: 412161
+Time: 12.3339
+Energy: 412161
+Time: 12.8392
+Energy: 412161
+Time: 13.3168
+Energy: 412161
+Time: 13.8486
+Energy: 412161
+Time: 14.3557
+Energy: 412161
+Time: 14.8358
+Energy: 412161
+Time: 15.3371
+Energy: 412161
+Time: 15.8061
+Energy: 412161
+Time: 16.2836
+Energy: 412161
+Time: 16.7613
+Energy: 412161
+Time: 17.2382
+Energy: 412161
+Time: 17.7185
+Energy: 412161
+Time: 18.1958
+
+
+COOC Lambda:1	Unary:329351.000	High:82810.000	Total Energy:412161.000	Time:18.326 
+

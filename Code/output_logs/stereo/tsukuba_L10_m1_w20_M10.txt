@@ -1,0 +1,127 @@
+Parameters of the input file:
+
+Number of variables = 110592
+Number of labels = 16
+M = 5 m =  1
+Total number of cliques = 220635
+---------------------------------------------------------------------------------------------------
+
+Range Expansion - Initialization
+Current energy: 6.91338e+06
+
+
+Range: 1 - 10
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 22.3205s
+Time for iteration: 23.5275
+Current energy: 1.78744e+06
+
+
+Range: 2 - 11
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 101.929s
+Time for iteration: 103.188
+Current energy: 1.52498e+06
+
+
+Range: 3 - 12
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 114.053s
+Time for iteration: 115.494
+Current energy: 1.4018e+06
+
+
+Range: 4 - 13
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 824.021s
+Time for iteration: 825.548
+Current energy: 1.4018e+06
+
+
+Range: 5 - 14
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 623.333s
+Time for iteration: 624.641
+Current energy: 1.31138e+06
+
+
+Range: 6 - 15
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 541.867s
+Time for iteration: 543.28
+Current energy: 1.26047e+06
+
+
+Range: 7 - 16
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 12.4539s
+Time for iteration: 14.1541
+Current energy: 1.26047e+06
+
+
+Range: 1 - 10
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 35.3444s
+Time for iteration: 37.1746
+Current energy: 1.26047e+06
+
+
+Range: 2 - 11
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 31.3401s
+Time for iteration: 32.5775
+Current energy: 1.26047e+06
+
+
+Range: 3 - 12
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 37.4973s
+Time for iteration: 38.7493
+Current energy: 1.26047e+06
+
+
+Range: 4 - 13
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 32.7313s
+Time for iteration: 34.0595
+Current energy: 1.26047e+06
+
+
+Range: 5 - 14
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 21.4259s
+Time for iteration: 22.7255
+Current energy: 1.26047e+06
+
+
+Range: 6 - 15
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 27.4853s
+Time for iteration: 28.8725
+Current energy: 1.26047e+06
+
+
+Range: 7 - 16
+# nodes: 5518620
+# arcs: 28026726
+Time for max-flow: 12.969s
+Time for iteration: 14.3416
+Current energy: 1.26047e+06
+Range Expansion - Completion
+
+Total execution time for range expansion: 2461.2s
+Fraction not majority: 0.512469
+Fraction not min unary: 0.627866
