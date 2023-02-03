@@ -23,7 +23,3 @@ Usage is similar to the example shown in 'example.cpp'.
 #### CONTACT
 
 If you have any suggestions regarding the program or have bugs to report, you can email Pankaj Pansari (pankaj@robots.ox.ac.uk).
-
-#### REFERENCES
-
-[1] 
